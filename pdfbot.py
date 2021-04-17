@@ -203,7 +203,7 @@ def main():
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
-    TOKEN = os.getenv("TELEGRAM_TOKEN")
+    TOKEN = "1342819762:AAFP2To2fqaSERFyj67phE37eCezy4CukT4"
     updater = Updater(TOKEN, use_context=True)
 
     # Get the dispatcher to register handlers
